@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.mapg.appmapg.VideoActivity"
+    tools:showIn="@layout/activity_video">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/video"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Uma das ferramentas mais importantes hoje para as empresas poder apresentar a sua empresa, é usando videos e apresentações. A MAPG elabora StoryBoard para passar todas as informações necessárias a respeito da sua empresa com clareza, objetividade e aliado com o melhor design. Usamos as melhores ferramentas do mercado para elaboração do seu vídeo (After Effects e Power Point).Entre em contato conosco e conheça nossas condições para começar a atrair seus clientes de com a melhor ferramenta da internet."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+</android.support.constraint.ConstraintLayout>

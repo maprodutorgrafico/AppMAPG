@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App MAPG</string>
+
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Fechar Menu</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_site">Sites MAPG</string>
+    <string name="title_activity_diagramacao">Diagramação MAPG</string>
+    <string name="title_activity_video">Videos MAPG</string>
+</resources>
